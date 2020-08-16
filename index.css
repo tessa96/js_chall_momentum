@@ -1,0 +1,105 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Alata', sans-serif;
+  background-color:#34495e;
+  color:white;
+  position: relative;
+  text-align: center;
+  animation: fadeIn 1s linear;
+}
+
+h1{
+  font-size: 7rem;
+  padding-top: 7rem;
+  }
+
+button {
+  size:2.3rem;
+  color:white;
+  margin-right: 1em;
+  cursor: pointer;
+  background: none;
+  appearance: none;
+  border: 0;
+}
+
+.greetForm,
+.greetings {
+  font-size: 2.5rem;
+  display: none;
+  animation: fadeIn 1s linear;
+}
+
+.showing{
+  display: block;
+  margin:20px;
+  animation: fadeIn 1s linear;
+}
+
+.toDoForm {
+  font-size: 2.5rem;
+  margin: 20px;
+  animation: fadeIn 1s linear;
+}
+
+.toDoList{ 
+  margin:20px;
+  font-size: 2rem;
+  position: relative;
+  left: 40%;
+  animation: fadeIn 1s linear;
+}
+
+ul{
+width: 300px;
+padding-inline-start: 0;
+text-align: left;
+animation: fadeIn 1s linear;
+}
+
+input{
+font-family: 'Alata', sans-serif;
+color: white;
+text-align: center;
+padding: 1px 2px;
+background: none;
+appearance: none;
+border: 0;
+font-size: 2.3rem;
+border-bottom: 2px solid white;
+animation: fadeIn 1s linear;
+}
+
+
+.weather{
+  font-size: 1.3rem;
+  width: 200px;
+  text-align: right;
+  animation: fadeIn 1s linear;
+}
+
+.bgImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  } 
+  to {
+    opacity: 1;
+  }
+}
+
