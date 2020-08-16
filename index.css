@@ -16,7 +16,8 @@ body{
 
 h1{
   font-size: 7rem;
-  padding-top: 7rem;
+  margin:0;
+  padding-top: 5rem;
   }
 
 button {
